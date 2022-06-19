@@ -18,8 +18,8 @@ public class attribute {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebElement ele = driver.findElement(By.name("q"));
 		Point loc = ele.getLocation();
-		System.out.println(loc.getX() + "x coordinates");
-		System.out.println(loc.getY() + "y coordinates");
+		System.out.println(loc.getX() + "x coordinates change : ");
+		System.out.println(loc.getY() + "y coordinates change : ");
 		driver.close();
 	}
 
